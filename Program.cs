@@ -6,7 +6,7 @@ namespace consoleprogramlama
     {
         static void Main(string[] args)
         {
-            /* Soru 1
+            /* Soru1 */
          Console.WriteLine("Pozitif Bir Sayı Giriniz.");
          int diziuzunlugu = Convert.ToInt32(Console.ReadLine()) ;
          int[] dizi = new int[diziuzunlugu];
@@ -22,9 +22,9 @@ namespace consoleprogramlama
         {
             if(a % 2 == 0)
             Console.Write(a + " ");
-        } */
+        } 
          
-         /*Ödev2
+         /* Soru 2 */
          Console.WriteLine("Pozitif iki sayı giriniz");
          string sayilar = Console.ReadLine();
          string[] array = sayilar.Split(new char[]{' '},2);
@@ -51,9 +51,9 @@ namespace consoleprogramlama
             {
                 Console.WriteLine(array2_int[i] + " ");
             }
-        } */
+        } 
 
-        /* Ödev 3 
+        /* Soru 3 */
         Console.WriteLine("Bir sayı giriniz.");
         int n = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine(n + " adet kelime giriniz.");
@@ -64,8 +64,8 @@ namespace consoleprogramlama
           for (int i = 0; i < kelimeler_lenght; i++)
           {
               Console.Write(kelimeler[i] + " ");
-          } */
-
+          } 
+           /* Soru 4 */
           Console.WriteLine("Bir cümle yazınız.");
           string cumle_string = Console.ReadLine();
           string[] cumle_array = cumle_string.Split(new char[]{' '});
